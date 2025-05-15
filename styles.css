@@ -1,0 +1,58 @@
+*{
+margin:0%;
+padding:0%;
+}
+
+body{
+    background-image: url(Background.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.menu-bar{
+    background-color: green;
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: whitesmoke;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.active, .menu-bar ul li :hover
+{
+    color: black;
+     border-radius: 3px;
+}
+.menu-bar .fa
+{
+    margin-right: 8px;
+}
+.sub-menu-1{
+    display: none;
+}
+ .menu-bar ul li :hover .sub-menu-1
+ {
+    display: block;
+    position: absolute;
+    background: lightgreen;
+    margin-top: 15px;
+    margin-left: -15px;
+ }
+ 
+
+
+
+
+
+
+
+
